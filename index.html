@@ -74,6 +74,23 @@
             transform: scale(1.05);
             box-shadow: 0 6px 8px rgba(0,0,0,0.15);
         }
+
+        .cta-button2 {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .cta-button2:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+        }
         
         .key-points {
             display: flex;
@@ -116,10 +133,14 @@
         }
 
         .requirements, .faq {
-            background: white;
+            background: #eeeeee;
             border-radius: 10px;
             padding: 30px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .faq {
+            background: #e7e7e7;
         }
 
         .requirements-list {
@@ -165,7 +186,6 @@
             background-color: var(--secondary-color);
             color: white;
             padding: 40px 20px;
-            text-align: center;
         }
 
         .footer-content {
@@ -196,7 +216,6 @@
                 font-size: 2.5rem;
             }
         }
-
         
     </style>
 </head>
@@ -210,29 +229,41 @@
             <h1>Dessert</h1>
             <p>Develop an Android app, get it published on the Play Store.</p>
             <a href="https://forms.hackclub.com/dessert" class="cta-button" target="_blank">Submit</a>
+            <a href="https://forms.fillout.com/t/cFbDHu7nmPus" class="cta-button2" target="_blank">RSVP</a>
         </div>
     </section>
 
     <section class="key-points">
         <div class="point">
             <div class="point-icon">🚀</div>
-            <h3>Build Real Apps</h3>
-            <p>Create a functional Android app from scratch</p>
+            <h3>1. Build an app</h3>
+            <p>Create a functional Android app from scratch.</p>
         </div>
         <div class="point">
             <div class="point-icon">📦</div>
-            <h3>Publish & Earn</h3>
-            <p>Publish on an app store and receive a Google Developer License</p>
+            <h3>2. Submit</h3>
+            <p>Submit all required materials.</p>
+        </div>
+        <div class="point">
+            <div class="point-icon">💰</div>
+            <h3>3. Earn</h3>
+            <p>Recieve your Android Developer license!</p>
+        </div>
+        <div class="point">
+            <div class="point-icon">🎁</div>
+            <h3>4. BONUS</h3>
+            <p>Have your app on the Play Store and get stickers (and more)!</p>
         </div>
     </section>
 
     <section class="section requirements">
         <h2>Program Requirements</h2>
         <ul class="requirements-list">
-            <li>Developed in Kotlin or Java</li>
-            <li>Fufills a goal or solves a problem</li>
-            <li>Have a minmum of 10 downloads on any app store OR 10 peer reviews</li>
-            <li>Applicant under 18 years old</li>
+            <li>Develop an app in Kotlin, Java, Flutter*, or React Native*</li>
+            <li>Code for 10 hours in Hackatime with Kotlin or Java, or 15 hours with Flutter or React Native (tracked with Hackatime)</li>
+            <li>Detail your journey with frequent, detailed Git commits</li>
+            <li>Record a demo video</li>
+            <li>Be under 19 years old</li>
         </ul>
     </section>
 
